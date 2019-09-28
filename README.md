@@ -1,5 +1,5 @@
 # TGATeoriaDaInformacao
-<p>Trabalho do Grau a de Teoria da Informação</p>
+<p>Trabalho do Grau A da cadeira de Teoria da Informação do curso de Bacharel em Ciências da Computação da Universidade do Vale dos Sinos – Unisinos – Campus São Leopoldo, RS</p>
 <p></p>
 <p>Para abrir o executável (.jar) do projeto:</p>
 <p>Opção 1:</p>
