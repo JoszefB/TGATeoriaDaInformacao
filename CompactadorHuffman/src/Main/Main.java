@@ -32,7 +32,7 @@ public class Main {
             op=keyboard.nextInt();
             switch (op) {
                 case 1:
-                    System.out.print("\nDigite o nome do arquivo para ser compctado:");
+                    System.out.print("\nDigite o nome do arquivo para ser compactado:");
                     in = keyboard.next();
                     try {
                         br = arc.open(in);
@@ -65,7 +65,7 @@ public class Main {
                     }
                     break;
                 case 2:
-                    System.out.print("\nDigite o nome do arquivo para ser descompctado:");
+                    System.out.print("\nDigite o nome do arquivo para ser descompactado:");
                     in = keyboard.next();
                     try {
                         br = arc.open(in);
