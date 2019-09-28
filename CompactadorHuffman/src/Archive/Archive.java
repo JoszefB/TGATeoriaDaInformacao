@@ -34,7 +34,7 @@ public class Archive {
         file = new File(archive);
         out = new BufferedWriter(new OutputStreamWriter(  new FileOutputStream(file,put),"ISO-8859-1")   );
         out.write(content);
-        //checkCRC(content);
+        checkCRC(content);
         out.close();
         lengthFinal = file.length();
     }
@@ -55,11 +55,11 @@ public class Archive {
 
     public void checkCRC(String content) throws IOException {
         System.out.println("CRC: "+calculateCRC(content) );
-        long start = System.nanoTime();
+        /*long start = System.nanoTime();
         for ( int i = 0; i < 100_000100_000L; i++ ) {
             calculateCRC(content);
         }
         long stop = System.nanoTime();
-        System.out.println( ( stop - start ) / 1_000_0001_000_000L + " segundos para calcular 100.000 hashes CRC32" );
+        System.out.println( ( stop - start ) / 1_000_0001_000_000L + " segundos para calcular 100.000 hashes CRC32" );*/
     }
 }
