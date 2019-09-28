@@ -12,4 +12,4 @@
 <p>Observação: Quando for solicitado o nome do arquivo para ser compactado ou descompactado digite o caminho até ele e posteriormente o nome, conforme o exemplo a baixo.</p>
 <p></p>
 <p>Exemplo:</p>
-<p><code>C:\Users\”Usário” \Pasta\test\arquivo.txt</code></p>
+<p><code>./arquivo\arquivo.txt</code></p>
